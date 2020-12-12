@@ -30,3 +30,6 @@ func main() {
 }
 
 ```
+
+需要注意的是：libconfig官网说明配置读取的时候会忽略注释,这导致写入会造成注释丢失。
+http://www.hyperrealm.com/libconfig/libconfig_manual.html#index-write-on-Config
